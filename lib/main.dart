@@ -17,10 +17,12 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.deepPurple,
         accentColorBrightness: Brightness.dark,
         buttonTheme: ButtonTheme.of(context).copyWith(
-            textTheme: ButtonTextTheme.primary,
-            buttonColor: Colors.pink,
-            shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(20))),
+          textTheme: ButtonTextTheme.primary,
+          buttonColor: Colors.pink,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
       ),
       home: AuthScreen(),
     );
