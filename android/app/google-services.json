@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954942279018",
+    "firebase_url": "https://flutter-chat-39562.firebaseio.com",
+    "project_id": "flutter-chat-39562",
+    "storage_bucket": "flutter-chat-39562.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954942279018:android:0519c23a9255af161b2913",
+        "android_client_info": {
+          "package_name": "mohamedissa.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954942279018-ubas9acej33a82l2jbjrssafr92tj4pa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdd69wjOhk-HucehKTOZIubQTE_OzYJMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954942279018-ubas9acej33a82l2jbjrssafr92tj4pa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
