@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AuthForm extends StatefulWidget {
-  final void Function(
-      String email, String userName, String password, bool isLogin) submitFn;
+  final void Function(String email, String userName, String password,
+      bool isLogin, BuildContext ctx) submitFn;
 
   AuthForm(this.submitFn);
 
@@ -22,9 +22,8 @@ class _AuthFormState extends State<AuthForm> {
     final isValid = _formKey.currentState.validate();
     FocusScope.of(context).unfocus();
     if (isValid) {
-      print(_userEmail);
-      print(_userName);
-      print(_userPassword);
+      widget.submitFn(_userEmail.trim(), _userPassword.trim(), _userName.trim(),
+          _isLogin, context);
       _formKey.currentState.save();
     }
   }
